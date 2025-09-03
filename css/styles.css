@@ -811,20 +811,44 @@ h1, h2, h3, h4, h5, h6 {
         height: 80vh;
     }
     
-    .navbar-brand {
-        font-size: 1.5rem;
+    .hero-title {
+        font-size: 3.5rem;
+        letter-spacing: 1px;
     }
     
-    .menu-item-name {
+    .hero-subtitle {
+        font-size: 2rem;
+    }
+    
+    .hero-description-main {
+        font-size: 1.3rem;
+    }
+    
+    .hero-description-detail {
+        font-size: 1rem;
+        padding: 15px;
+    }
+    
+    .hero-location {
         font-size: 1.1rem;
     }
     
-    .price {
-        float: none;
-        display: block;
-        margin-top: 5px;
+    .hero-decorations > div {
+        font-size: 1.2rem;
     }
-}
+    
+    .decoration-cactus-1 {
+        font-size: 1.5rem;
+    }
+    
+    .decoration-taco-1,
+    .decoration-taco-2 {
+        font-size: 1.5rem;
+    }
+    
+    .navbar-brand {
+        font-size: 1.5rem;
+    }
 
 /* ===========================
    UTILITY CLASSES
