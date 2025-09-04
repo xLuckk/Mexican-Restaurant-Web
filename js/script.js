@@ -19,7 +19,7 @@ document.addEventListener('DOMContentLoaded', function() {
             const targetSection = document.getElementById(targetId);
             
             if (targetSection) {
-                const offsetTop = targetSection.offsetTop - 80; // Account for navbar height
+                const offsetTop = targetSection.offsetTop - 100; // Account for navbar height
                 
                 window.scrollTo({
                     top: offsetTop,
