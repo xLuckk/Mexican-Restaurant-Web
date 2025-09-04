@@ -139,6 +139,11 @@ h1, h2, h3, h4, h5, h6 {
     background-attachment: fixed;
 }
 
+.hero-content {
+    z-index: 10;
+    position: relative;
+}
+
 .hero-overlay {
     position: absolute;
     top: 0;
@@ -180,14 +185,36 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .hero-buttons .btn {
-    margin: 0 10px;
-    padding: 12px 30px;
+        display: flex;
+        margin: 10px auto;
+        width: 250px;
+        gap: 10px;
+        justify-content: center;
+        align-items: center;
+    }
+
+.hero-buttons .btn {
+    margin: 0 10px 15px 10px;
+    padding: 15px 30px;
     font-size: 1.1rem;
     font-weight: 600;
     border-radius: 50px;
     transition: all 0.3s ease;
     text-decoration: none;
-    display: inline-block;
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    min-width: 200px;
+    justify-content: center;
+}
+
+.hero-buttons .btn i {
+    font-size: 1.2rem;
+}
+
+.hero-buttons .btn:hover {
+    transform: translateY(-5px) scale(1.05);
+    box-shadow: 0 10px 30px rgba(0,0,0,0.3);
 }
 
 .hero-buttons .btn:hover {
